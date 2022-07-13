@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="/index.css">
+<title>About Us</title>
+</head>
+<body>
+
+    <!-- Sign-In/Out Buttons -->
+    <section>
+    <!-- Sign-in Button -->
+        <div class="modal main-button" id="sign-in">
+            <div class="modal-dialog bg-dark bg-opacity-75">
+                    <div class="modal-header text-light">
+                        <h4 class="modal-title">Sign-in to Your Account</h4>
+                    </div>
+
+                    <form class="p-3 text-end">
+                        <div class="row pb-3">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Enter email" name="email">
+                            </div>
+                            
+                            <div class="col">
+                                <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-success">Sign-in</button>
+                    </form>
+
+                    <div class="modal-footer text-end">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                
+            </div>
+        </div>
+    <!-- Sign-out Button -->    
+        <div class="modal main-button" id="sign-out">
+            <div class="modal-dialog bg-dark bg-opacity-75">
+                    <div class="modal-header2 text-light">
+                        <h4 class="modal-title p-3">Sign-out of Your Account</h4>
+                    </div>
+
+                    <form action="#" class="submit-btn p-3 text-end">
+                        <button type="submit" class="btn btn-success">Sign-out</button>
+                    </form>
+
+                    <div class="modal-footer close-btn text-end">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark bg-opacity-75 p-4 fixed-top">
+        <div class="container">
+            <a href="/index.html" class="navbar-brand">The Hive</a>
+            <button 
+                class="navbar-toggler navbar-dark"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse content-end" id="navmenu">
+                <ul class="navbar-nav ms-auto p-2">
+                    <li class="nav-item text-center">
+                        <a href="/index.html" class="nav-link">Home</a>
+                    </li>
+                    
+                    <li class="nav-item text-center">
+                        <a href="/pages/store.html" class="nav-link">The Store</a>
+                    </li>
+                    
+                    <li class="nav-item text-center">
+                        <button type="button"
+                        class="btn nav-link"
+                        data-bs-toggle="modal"
+                        data-bs-target="#sign-in">Sign-in</button>                        
+                    </li>          
+                    
+                    <li class="nav-item text-center">
+                        <button type="button" 
+                        class="btn nav-link" 
+                        data-bs-toggle="modal" data-bs-target="#sign-out">Sign-out</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Landing -->
+    <section class="main main-about">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center bg-dark bg-opacity-75 message">
+                    <h2>How We Got Here</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ipsa accusamus laboriosam repellendus, aliquam nobis veritatis ex officia consequuntur qui sequi provident numquam similique facere dolore consequatur reprehenderit voluptatem doloribus aspernatur obcaecati maiores ullam et inventore. Aliquid amet necessitatibus vero soluta, est error exercitationem! Eveniet ab aliquam asperiores amet, est tenetur nobis alias! Ducimus repellat expedita aut deserunt aperiam dolor nostrum provident facere aliquam dignissimos consectetur delectus fuga itaque, doloribus sequi libero id sapiente, veniam veritatis voluptatibus magnam vitae? Nisi animi earum hic molestias, possimus, asperiores illo, corporis ex adipisci aspernatur nemo voluptatum. Vitae, harum at nihil asperiores tempora earum.
+                    </p>
+
+                    <p>Now that you've gotten to know us, check out our store
+                        <a href="/pages/store.html" class="message-link">here!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

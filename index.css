@@ -1,0 +1,90 @@
+/* * {
+    border: solid red;
+} */
+
+.btn-sign:hover {
+    background: rgb(247, 247, 128) !important;
+    color: black !important;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    text-align: start;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(247, 247, 128) !important;
+}
+
+.nav-link {
+    color: rgb(247, 247, 128) !important;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    background: rgb(247, 247, 128) !important;
+    color: black !important;
+    border-radius: 5px;
+}
+
+.main h2 {
+    font-size: 3em;
+    color: rgb(247, 247, 128);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main h3 {
+    color: rgb(247, 247, 128);
+}
+
+.main p {
+    color: rgb(247, 247, 128);
+}
+
+.message {
+    border-radius: 10px;
+}
+
+.message-link {
+    color: rgb(247, 247, 128);
+}
+
+.main-home{
+    position: relative;
+    background: url(bg_unsplash-ante-hamersmit.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    padding: 400px 0 100px 0;
+}
+
+.main-about {
+    position: relative;
+    background: url(bg_about_unsplash-danist-soh.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    padding: 400px 0 100px 0;
+}
+
+.main-store {
+    position: relative;
+    background: url(bg_store_unsplash-sharon-mccutcheon.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    padding: 400px 0 100px 0;
+}
+
+.main-button {
+    position: absolute;
+    background: url(bg_sio_unsplash-shelby-cohron.jpg);
+    max-width: 400px;
+    max-height: 500px;
+    background-size: cover;
+}
+
+.message-link:hover {
+    background: rgb(247, 247, 128) !important;
+    color: black !important;
+    border-radius: 2px;
+    padding: 3px;
+}
